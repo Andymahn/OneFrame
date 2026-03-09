@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+	--color-menu: #acb6bf;
+	--color-menu-hover: #6c818d;
+	--color-fondo-hover:#6c818d;
+	--color-sub-titulo: #fdfff4;
+	--color-titulo:#f8f7f1;
+	--fondo-footer:
+	--color-boton: #6c818d;
+	--color-fondo-1:#4a565c;
+}
+
+
+
+body{ 
+	font-family: Poppins;
+	font-family: "Space Mono", monospace;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 19px;
+	color: #fff;
+}
+
+footer{
+	background-color: var(--color-menu);
+	color:#fff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: #000;
+}
+
+.titulo{
+	color: var(--color-titulo);
+	font-family: "Space Mono", monospace;
+  	font-weight: 700;
+  	font-style: italic;
+	font-size: 70px;
+	
+}
+
+.subtitulo{
+	color: var(--color-sub-titulo);
+	font-family: "Poppins", sans-serif;
+  	font-weight: 100;
+  	font-style: normal;
+}
+
+.section{
+	padding: 8% 0;
+}
+
+#hero{
+	background-image: url("../img/fondo-hero.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.40);
+	background-blend-mode: multiply;
+	padding: 12% 0;
+	text-align: center;
+}
+
+#contactanos-lista a{
+    color: white;
+    text-decoration: none;
+}
+
+#hero h1{
+	margin-bottom: 30px;
+}
+
+#hero p{
+	padding: 0 70px;
+	text-align: left;
+}
+
+.btn-primary{
+	background-color: var(--color-boton);
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	padding: 10px 40px;
+	border-radius: 20px;
+}
+
+
+
+header{
+	background-color:var(--color-menu);
+	
+}
+
+#contactanos{
+	background-color: var(--color-fondo-1);
+}
+
+#contactanos-img{
+	width:auto;
+	height: 300px;
+}
+
+#trabajos{
+	background-color: var(--color-fondo-1); 
+}
+
+#trabajos h1{
+	padding-bottom: 60px;
+}
+
+#nav-socials .nav-link .fa-brands{
+	background-color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 100%;
+	color: var(--color-menu);
+}
+
+#nav-socials .nav-link .fa-brands:hover{
+	background-color: var(--color-menu-hover);
+	color: #fff; 
+}
+
+#logo-oneframe{
+	width: auto;
+	height: 90px;
+}
+
+
+
+
+
+
