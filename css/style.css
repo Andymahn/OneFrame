@@ -9,6 +9,7 @@
 	--fondo-footer:
 	--color-boton: #6c818d;
 	--color-fondo-1:#4a565c;
+	--color-fondo-2:#4a565c;
 }
 
 
@@ -63,6 +64,31 @@ h1,h2,h3,h4,h5,h6{
 	background-blend-mode: multiply;
 	padding: 12% 0;
 	text-align: center;
+	
+}
+
+#con-oneframe{
+	background-color: var(--color-menu-hover);
+}
+
+#con-oneframe #cosas-enmedio{
+	margin-top: 110px;
+}
+
+#con-oneframe h1{
+	padding-bottom: 20px;
+}
+
+#con-oneframe li{
+	padding: 15px 0;
+	
+}
+
+#con-oneframe-img{
+	width:auto;
+	height: 600px;
+	text-align:center;
+	padding-left: 80px;
 }
 
 #contactanos-lista a{
@@ -102,15 +128,30 @@ header{
 
 #contactanos-img{
 	width:auto;
-	height: 300px;
+	height: 600px;
 }
+
+#categorias{
+	background-color: var(--color-fondo-2);
+}
+
+
 
 #trabajos{
 	background-color: var(--color-fondo-1); 
 }
 
-#trabajos h1{
+#trabajos h2{
 	padding-bottom: 60px;
+	color: #fff;
+}
+
+#trabajos #artista{
+	background-color: var(--color-fondo-hover);
+}
+
+#proyectos-destacados{
+	background-color: var(--color-fondo-1);
 }
 
 #nav-socials .nav-link .fa-brands{
@@ -120,6 +161,30 @@ header{
 	line-height: 30px;
 	border-radius: 100%;
 	color: var(--color-menu);
+}
+
+#portafolio-fotografico{
+	background-color: var(--color-fondo-1);
+}
+
+#portafolio-fotografico .icono-circulo{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	color: var(--color-fondo-hover);
+	background-color: #fff;
+	border-radius: 100%;
+	font-size: 40px;
+	
+}
+
+#portafolio-fotografico h4{
+	font-weight: 400;
+	color: var(--color-menu);
+}
+
+#portafolio-fotografico p{
+	
 }
 
 #nav-socials .nav-link .fa-brands:hover{

@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>One Frame</title>
+<title>One Frame - Proyectos Destacados</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet" >
+<link href="css/owl.carousel.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+	
+<meta name="Description" content="Oneframe es una plataforma diseñada para fotógrafos que desean crear, publicar y compartir sus portafolios en línea. Los usuarios pueden explorar galerías organizadas por categorías, descubrir fotógrafos según su estilo y contactar profesionales para proyectos o colaboraciones.">
+<meta name="Keywords" content="fotografía, portafolio de fotografía, portafolio fotográfico, fotógrafos profesionales, galería de fotos, fotografía profesional, about oneframe, oneframe, oneframe template html, template oneframe">
 </head>
 
-<body>
-	
-	<body>
-	
 	<header>
 		<div class="container-fluid">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,18 +30,20 @@
 				  <li class="nav-item">
 					<a class="nav-link" href="index.html">Home</a>
 				  </li>
+
 					
 				  <li class="nav-item">
-					<a class="nav-link active" href="#">Ultimos trabajos</a>
-				  </li>
-					
-				  <li class="nav-item">
-					<a class="nav-link" href="#">Artistas destacados</a>
+					<a class="nav-link" href="artistas-destacados.html">Artistas destacados</a>
 				  </li>
 					
 					<li class="nav-item">
-					<a class="nav-link" href="contactanos.html">Contactanos</a>
+					<a class="nav-link" href="contactanos.html">Contáctanos</a>
 				  </li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="inicia-sesion.html">Inicia Sesión</a>
+					</li>
+					
 				</ul>
 				  
 				  
@@ -51,72 +53,60 @@
 		</div>
 	</header>
 	
-	<section id="trabajos" class="section">
+<body>
+	
+	
+	<section id="proyectos-destacados" class="section">
 		<div class="container-fluid">
 			
 			<div class="header-titulo text-center">
-				<h1 class="titulo">Ultimos trabajos</h1>
-				
+				<h1 class="titulo">Proyectos destacados</h1>
+				<h2></h2>
 			</div>
 			
-			<div class="row">
-				
-				<article class="col-lg-4 col-sm-4 col-12">
-					<a href="#">
-						<img src="img/img-trabajos-4.jpg" alt="trabajos" class="container-fluid">
-					</a>
-				
-				</article>
-			
-				<article class="col-lg-4 col-sm-4 col-12">
-					<a href="#">
-						<img src="img/img-trabajos-5.jpg" alt="trabajos" class="container-fluid">
-					</a>
-				
-				</article>
-				
-				<article class="col-lg-4 col-sm-4 col-12">
-					<a href="#">
-						<img src="img/img-trabajos-3.jpg" alt="trabajos" class="container-fluid">
-					</a>
-				</article>
-					
-			</div>
-					
-			<div class="row mt-5">		
 		
-				<article class="col-lg-4 col-sm-4 col-12">
+			<div class="owl-carousel proyectos-destacado-carousel mt-5">		
+		
+				<article>
 					<a href="#">
-						<img src="img/img-trabajos-1.jpg" alt="trabajos" class="container-fluid">
+						<img src="img/contactanos-2.jpg" alt="trabajos" class="img-fluid">
 					</a>
-				
 				</article>
 				
-				<article class="col-lg-4 col-sm-4 col-12">
+				<article>
 					<a href="#">
-						<img src="img/img-trabajos-2.jpg" alt="trabajos" class="container-fluid">
+						<img src="img/Inicia.jpg" alt="trabajos" class="img-fluid">
 					</a>
-				
 				</article>
 				
-				<article class="col-lg-4 col-sm-4 col-12">
+				<article>
 					<a href="#">
-						<img src="img/img-trabajos-6.jpg" alt="trabajos" class="container-fluid">
+						<img src="img/con-oneframe.jpg" alt="trabajos" class="img-fluid">
 					</a>
-				
 				</article>
-			
+				
+				
+				
 			</div>
 			
 			<div class="text-center">
-				<a href="#" class="btn btn-primary btn-mini mt-5">Mirar todos los Trabajos</a>
+				<a href="#" class="btn btn-primary btn-mini mt-5">Ver mas</a>
 			</div>
 			
 			
 		</div>
 	</section>
 	
-	<footer>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<footer>
   <div class="container d-flex justify-content-between align-items-center">
     <p class="mb-0">© 2026 One Frame. Todos los derechos reservados.</p>
 
@@ -145,6 +135,31 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+<script>
+	$(".proyectos-destacado-carousel").owlCarousel({
+				items: 1,
+				loop: true,
+				autoplay: true,
+				smartSpeed: 800,
+				margin: 30,
+				center: true,
+				dots: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					480: {
+						items: 3
+					},
+					992: {
+						items: 3
+					}
+				}
+			});
+</script>
 	
 </body>
 </html>
+	
+	
