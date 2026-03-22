@@ -197,8 +197,77 @@ header{
 	height: 90px;
 }
 
+#planes{
+	background-color: var(--color-fondo-1); 
+}
 
+.plan-card {
+    background: #f2f2f2;
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
 
+.plan-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 
+.plan-card hr {
+    width: 80%;
+    margin: 10px auto 20px;
+    border: 1px solid #888;
+}
 
+.plan-price {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
 
+.plan-list {
+    list-style: disc;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 30px;
+	color: #000;
+	font-weight: 300;
+}
+
+.plan-list li {
+    margin-bottom: 10px;
+}
+#planes .btn{
+	color: #000;
+}
+
+#texto-panes{
+	color: var(--color-titulo);
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#planes .btn:hover{
+	color: #fff;
+}
+
+#log-in{
+	background-color: var(--color-fondo-1); 
+}
+
+#log-in h1{
+	font-size: 60px;
+	padding-bottom: 20px;
+}
+
+#pago{
+	background-color: var(--color-fondo-1);
+}
+
+#pago h1{
+	font-size: 60px;
+	padding-bottom: 20px;
+}
