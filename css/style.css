@@ -148,6 +148,8 @@ header{
 
 #trabajos #artista{
 	background-color: var(--color-fondo-hover);
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #proyectos-destacados{
@@ -270,4 +272,19 @@ header{
 #pago h1{
 	font-size: 60px;
 	padding-bottom: 20px;
+}
+
+#sobre-nosotros{
+	background-color: var(--color-menu-hover);
+}
+
+#persona{
+	padding-top: 15px;
+}
+
+.nostros{
+	width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
